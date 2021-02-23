@@ -8,10 +8,10 @@ r = 6.371*(10**6)
 visina = 0
 
 def main():
-    if len(sys.argv) > 2:
+    if (len(sys.argv) > 2):
         print("Too many arguments.")
         sys.exit()
-    if(len sys.argv == 1):
+    if(len(sys.argv) == 1):
         print("Please add argument 'nadmorska visina'.")
         sys.exit()
     
